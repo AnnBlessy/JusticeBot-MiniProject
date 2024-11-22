@@ -25,8 +25,7 @@ Utilizing ChromaDB for efficient data management and data retrieval and AWS infr
 
 ## System Architecture
 <!--Embed the system architecture diagram as shown below-->
-
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+![image](https://github.com/user-attachments/assets/10fc8392-7909-48b3-8c82-9ba6d7a7e755)
 
 
 ## Output
