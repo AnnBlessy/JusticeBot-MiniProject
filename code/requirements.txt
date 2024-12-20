@@ -1,0 +1,11 @@
+fitz==0.0.1.dev2
+Flask==3.0.3
+langchain==0.3.7
+langchain_community==0.3.5
+langchain_google_genai==2.0.4
+python-dotenv==1.0.1
+scikit-learn==1.5.1
+scikit-learn-intelex==2025.0.0
+PyMuPDF==1.24.13
+gunicorn==23.0.0
+PyMuPDF
