@@ -1,10 +1,73 @@
-<html>
-  <head>
-    <title>
-      My Project
-    </title>
-  </head>
-  <body>
-    <h1> My Project </h1>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JusticeBot</title>
+    <link rel="stylesheet" href="static\css\style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo-and-title">
+                <div class="logo">
+                    <img src="static/img/logo.png" alt="JusticeBot Logo">
+                </div>
+                <h1>Welcome to JusticeBot</h1>
+            </div>
+        </div>
+        <div class="content">
+            <h2>A Virtual Legal Assistant</h2>
+            <p>Justice, Simplified. Solutions for a Fair World !!</p>
+            
+            <!-- Card container that will disappear after chat starts -->
+            <div class="card-container" id="card-container">
+                <div class="card">
+                    <div class="icon">
+                        <img src="static\img\img1.jpg" alt="Skin Check Icon">
+                    </div>
+                    <h3>Instant Legal Advice</h3>
+                    <p> Get quick, reliable answers to legal questions.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <img src="static\img\img2.png" alt="AI Icon">
+                    </div>
+                    <h3>Case Management & Document Analysis</h3>
+                    <p>Organize, review and track cases, all in one place.</p>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <img src="static\img\247.jpg" alt="Health Icon">
+                    </div>
+                    <h3>24/7 Availability</h3>
+                    <p>Accessible anytime, so justice is never out of reach.</p>
+                </div>
+            </div>
+
+            <!-- Chat history that will appear after starting the conversation -->
+            <div id="chat-history" class="chat-history"></div>
+
+            <!-- Input bar with image upload icon and text input -->
+            <div id="prediction-result" style="text-align: center;"></div>
+
+            <form id="chat-form">
+                <div class="input-container">
+                    <label for="file-upload">
+                        <img src="https://cdn-icons-png.flaticon.com/128/3249/3249934.png" alt="Upload Icon" class="upload-icon">
+                    </label>
+                    <input type="file" id="file-upload" name="file" accept="image/*" style="display: none;">
+                    <input type="text" name="user_question" placeholder="Ask Any Judicial queries to clarify..." required>
+                    <button type="submit" id="send">Send</button>
+                </div>
+
+            </form>
+
+
+            <div id="prediction-result"></div>
+        </div>
+    </div>
+
+    <script src="static\js\chat.js"></script>
+</body>
 </html>
